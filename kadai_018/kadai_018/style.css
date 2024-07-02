@@ -1,0 +1,86 @@
+#top {
+  width: 800px;
+  background-color: #dcc9f4;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.top-child {
+  width: 20%;
+  background-color: #ffd9df;
+  display: inline-block;
+}
+
+
+#middle {
+  width: 800px;
+  height: 800px; 
+  margin: 20px auto;
+  background-color: #ffd9df;
+  position: relative;
+}
+
+#middle-child01 { 
+  /* middleの上から100px,左から300pxに配置する*/
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#middle-child02 {
+  /* middleの上から300px,左から300pxに配置する */
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+  position:  absolute;
+  top: 300px;
+  left: 300px; 
+}
+
+#middle-child03 {
+  /* middleの上から500px,左から500pxに配置する */
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+  position: absolute;
+  top: 500px;
+  left: 500px;  
+}
+
+#botton {
+  width: 800px;
+  height: 300px;
+  background-color: #87ceeb;
+  margin: 0 auto; 
+  position: relative;
+}
+
+#botton-child01 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+
+#botton-child02 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  margin-left: 200px;
+  position: relative;
+}
+
+#botton-child03 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  margin-left: 400px;
+  position: relative;
+}
+
+
+
